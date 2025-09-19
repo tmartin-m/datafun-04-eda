@@ -49,14 +49,32 @@ https://github.com/denisecase/pro-analytics-01/blob/main/01-machine-setup/MACHIN
   - https://github.com/denisecase/pro-analytics-01/blob/main/03-repeatable-workflow/05-modify-and-test.md
 ## Save
   - https://github.com/denisecase/pro-analytics-01/blob/main/03-repeatable-workflow/06-git-add-commit-push.md
-  - git add .
-  - git commit -m "Add .gitignore and requirements.txt files"
-  - git push -u origin main
+
+```python
+git add .
+git commit -m "Add .gitignore and requirements.txt files"
+git push -u origin main
 
 # To Dos
 https://www.stepsize.com/blog/best-vs-code-extensions-to-handle-todos
 
 # Example Repo
+https://github.com/denisecase/datafun-04-notebooks/blob/main/docs/EDA.md
 
-
+# Checklist
+ Notebook has exactly one Markdown title (with a single hash).
+ Notebook has useful Markdown header cell with author and purpose, and optionally, the date.
+ Notebook uses numbered second level Markdown headings for organization.
+ Notebook has numbered sections with useful content for:
+ 1. Imports
+ 2. Load Data
+ 3. Initial Data Inspection
+ 4. Initial Descriptive Statistics
+ 5. Initial Data Distribution for Numerical Columns
+ 6. Initial Data Transformation and Feature Engineering
+ 7. Initial Visualizations
+ 8. Initial Insights
+ Notebook includes commentary as we go that tells a unique data story.
+ Notebook includes unique insights into the dataset.
+ Code and visuals are working, notebook is fully executed and on display in GitHub.
 
