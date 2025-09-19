@@ -45,24 +45,25 @@ https://github.com/denisecase/pro-analytics-01/blob/main/01-machine-setup/MACHIN
       - .\.venv\Scripts\activate
       - py myfile.py
     - https://github.com/denisecase/pro-analytics-01/blob/main/03-repeatable-workflow/04b-activate-and-run-jupyter-notebook.md
+      - Open the project notebook in VS Code. The file will have a .ipynb extension.
+      - If prompted, select a Python interpreter that corresponds to your .venv.
+      - If not prompted, click the kernel selector in the top-right corner of the notebook editor and choose the interpreter associated with your Python Environment / .venv.
+      - Or:
+        - From VS Code Menu, select View / Command Palette... (CTRL SHIFT P)
+        - Type: Python: Select Interpreter
+        - Choose your .venv from the list
 ## Modify Code and test
   - https://github.com/denisecase/pro-analytics-01/blob/main/03-repeatable-workflow/05-modify-and-test.md
 ## Save
   - https://github.com/denisecase/pro-analytics-01/blob/main/03-repeatable-workflow/06-git-add-commit-push.md
-
-```python
-git add .
-git commit -m "Add .gitignore and requirements.txt files"
-git push -u origin main
-
-```markdown
-# To Dos
-https://www.stepsize.com/blog/best-vs-code-extensions-to-handle-todos
+    - git add .
+    - git commit -m "Add .gitignore and requirements.txt files"
+    - git push -u origin main
 
 # Example Repo
 https://github.com/denisecase/datafun-04-notebooks/blob/main/docs/EDA.md
 
-# Checklist
+# Exploratory Data Analysis Checklist
  Notebook has exactly one Markdown title (with a single hash).
  Notebook has useful Markdown header cell with author and purpose, and optionally, the date.
  Notebook uses numbered second level Markdown headings for organization.
